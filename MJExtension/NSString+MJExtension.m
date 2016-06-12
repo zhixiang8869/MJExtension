@@ -9,6 +9,10 @@
 #import "NSString+MJExtension.h"
 
 @implementation NSString (MJExtension)
+-(NSString *)test
+{
+    return @"test";
+}
 - (NSString *)mj_underlineFromCamel
 {
     if (self.length == 0) return self;
