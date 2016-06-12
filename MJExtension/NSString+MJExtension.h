@@ -27,7 +27,7 @@
  */
 - (NSString *)mj_firstCharLower;
 
--(NSString *)test;
+
 
 - (BOOL)mj_isPureInt;
 
